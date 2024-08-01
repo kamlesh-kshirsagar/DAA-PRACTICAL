@@ -1,0 +1,269 @@
+ans=2+1;
+
+--> ans
+ ans  = 
+
+   3.
+
+--> a="scilab";
+
+--> "the value of"+string(a)
+ ans  =
+
+  "the value ofscilab"
+
+--> a=23;
+
+--> b=32;
+
+--> c=a+b;
+
+--> "addition of two no "+string(c)
+ ans  =
+
+  "addition of two no 55"
+
+--> // this is comment of code 
+
+--> str="kamlesh"
+ str  = 
+
+  "kamlesh"
+
+--> // Assigning float value
+
+--> x = 10.5
+ x  = 
+
+   10.5
+
+--> 
+
+--> // Assigning string value
+
+--> name = "John"
+ name  = 
+
+  "John"
+
+--> 
+
+--> // Assigning Boolean values
+
+--> isAdmin = %T
+ isAdmin  = 
+
+  T
+
+--> isSubscriber = %F
+ isSubscriber  = 
+
+  F
+
+--> // This is a comment
+
+--> 
+
+--> // Continuation line
+
+--> x = 1 + 2 + ...
+  >     3 + 4
+ x  = 
+
+   10.
+
+--> // Mathematical functions
+
+--> x = sin(3.14)
+ x  = 
+
+   0.0015927
+
+--> y = sqrt(16)
+ y  = 
+
+   4.
+
+--> 
+
+--> // Mathematical operators
+
+--> a = 5 + 3
+ a  = 
+
+   8.
+
+--> b = 10 - 4
+ b  = 
+
+   6.
+
+--> c = 7 * 2
+ c  = 
+
+   14.
+
+--> d = 12 / 3
+ d  = 
+
+   4.
+
+--> // Pre-defined mathematical variables
+
+--> x = %pi
+ x  = 
+
+   3.1415927
+
+--> y = %e
+ y  = 
+
+   2.7182818
+
+--> z = %i
+ z  = 
+
+   0. + i  
+
+--> // Booleans
+
+--> isAdmin = %T
+ isAdmin  = 
+
+  T
+
+--> isSubscriber = %F
+ isSubscriber  = 
+
+  F
+
+--> 
+
+--> // Comparison operators
+
+--> x = 5
+ x  = 
+
+   5.
+
+--> y = 10
+ y  = 
+
+   10.
+
+--> isGreater = x > y
+ isGreater  = 
+
+  F
+
+--> isLesser = x < y
+ isLesser  = 
+
+  T
+
+--> isEqual = x == y
+ isEqual  = 
+
+  F
+
+--> isNotEqual = x ~= y
+ isNotEqual  = 
+
+  T
+
+--> // Complex numbers
+
+--> z1 = 3 + 4*%i
+ z1  = 
+
+   3. + 4.i
+
+--> z2 = 2 - 5*%i
+ z2  = 
+
+   2. - 5.i
+
+--> 
+
+--> // Operations on complex numbers
+
+--> sum = z1 + z2
+ sum  = 
+
+   5. - i  
+
+--> product = z1 * z2
+ product  = 
+
+   26. - 7.i
+
+--> // Strings
+
+--> name = "John"
+ name  = 
+
+  "John"
+
+--> age = "30"
+ age  = 
+
+  "30"
+
+--> 
+
+--> // Concatenation operator
+
+--> info = name + " is " + age + " years old"
+ info  = 
+
+  "John is 30 years old"
+
+--> 
+
+--> // Comparison operator for strings
+
+--> isSame = "John" == "John"
+ isSame  = 
+
+  T
+
+--> // Swap values without third variable
+
+--> x = 5
+ x  = 
+
+   5.
+
+--> y = 10
+ y  = 
+
+   10.
+
+--> 
+
+--> // Swap
+
+--> x = x + y
+ x  = 
+
+   15.
+
+--> y = x - y
+ y  = 
+
+   5.
+
+--> x = x - y
+ x  = 
+
+   10.
+
+--> 
+
+--> // Print swapped values
+
+--> printf("x = %d\n", x)
+x = 10
+
+--> printf("y = %d\n", y)
+y = 5
